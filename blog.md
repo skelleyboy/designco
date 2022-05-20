@@ -4,7 +4,7 @@ title: Blog
 permalink: "/blog/"
 
 ---
-aaa
+
 <div id="main" role="main" class="container">
     <div class="posts">
       {% for post in site.posts %}
