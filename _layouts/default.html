@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -14,35 +18,395 @@
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
-    <STYLE>
-      @media (prefers-color-scheme: dark) {
-  a {color:#ff0000}
-  body {
-  color: #eee;
-  background: #121212;
+ <STYLE>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  cursor: default;
+    transition: all ease .2s;
+}
+    
+    
+    :root {
+  --primary: blue;
+        --primary-hover: white;
+}
+    .ourServices {max-width: 800px; margin: auto; padding: 30px;}
+    .ourServices h2 {font-size:  42px;}
+    .sampleBg  {background-image: url('images/example.png' ); height: 320px;  background-repeat: no-repeat; background-size: cover;  background-position: top center; }
+    .number {display:none;text-align: right; background: rgba(0,0,0,.9); font-size: 20px; color:white; padding:15px; position: fixed; z-index: 9999; bottom:0px; left:0px; right:0px;}
+    .number a {color:#fff!important; font-weight: bold;}
+    .logoContainer {padding: 10px 0px 0px 15px;}
+    .logo {height:40px; cursor: pointer; position: relative;}
+    
+    .mainImage {max-width: 100%; margin:50px 0px 0px 0px;}
+    .blurb {padding:20px 30px 0px; max-width:1480px; margin: auto;position: relative; }
+    .blurb  img {max-width: 100%; margin: 30px 0px  0px 0px;}
+body {
+  background-color: #fff;
+  padding: 0px;
+}
+    .cta { position: relative; font-weight: bold; background: var(--primary); color:white; text-decoration: none; font-size: 24px; margin: 30px 0px 0px; display: inline-block; padding: 10px 30px; border-radius: 500px;}
+    .cta:hover {color:rgba(0,0,0,.9); background:var(--primary-hover); -webkit-box-shadow: 0px 0px 0px 10px rgba(0,0,0,.1); box-shadow: 0px 0px 0px 10px rgba(0,0,0,.1);}
+    .ctaTwo  {display: block; max-width: 280px; margin: -0px auto 0px; text-align: center;}
+p{
+  margin-top: .125rem;
+  
+}
+a{
+  cursor: pointer;
+}
+input[type=checkbox] {
+  display: none;
+}
+
+    nav {display: none;}
+nav ul {
+    height: 0px;
+  max-height: 0px;
+  list-style: none;
+  background:rgba(0,0,0,1);
+}
+
+nav li {
+  border-bottom: 1px solid #333;
+  color: #fff;
+  font-size: 28px;
+  padding: 15px;
+  display: flex;
+}
+
+nav li:last-of-type {
+  margin-bottom: .625rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color:#fff;
+    
+   
+}
+nav li a:hover{
+  text-decoration: underline;
+}
+    input[type=checkbox]:checked ~ nav {display: block;}
+
+input[type=checkbox]:checked ~ nav ul {
+  height: auto;
+  max-height: 600px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 99
+}
+
+.hamburger {
+  display: block;
+  position: fixed;
+  top: 18px;
+  right: 13px;
+  height: 40px;
+  width: 41px;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(.19, 1, .22, 1);
+  background:rgba(0,0,0,.9);
+  border:1px solid white;
+    z-index: 9999;
+}
+
+.line {
+  position: absolute;
+  display: block;
+  background: #fff;
+  width: 18px;
+  height: .15rem;
+  border-radius: .2rem;
+  left: 11px;
+  transition: all .6s cubic-bezier(.5, .1, 0, 1.2);
+}
+
+.line-1 {
+  top: 11px;
+}
+
+.line-2 {
+  top: 18px;
+  width: 14px;
+  transform: translateX(2px);
+  -webkit-transform: translateX(2px);
+}
+
+.line-3 {
+  top: 25px;
+}
+
+input[type=checkbox]:checked ~ label .line-1 {
+  top: 10px;
+  width: 22px;
+  transform: translateX(-11px) rotate(-45deg) translateY(12px);
+}
+
+input[type=checkbox]:checked ~ label .line-2 {
+  opacity: 0;
+}
+
+input[type=checkbox]:checked ~ label .line-3 {
+  top: 24px;
+  width: 22px;
+  transform: translateX(-8px) rotate(45deg) translateY(-8px);
+}
+
+.header {
+  margin: 60px auto 0 auto;
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+    background: black;
+  
+}
+
+
+
+.header__title {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(0,0,0,.9);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+    padding: 0px 30px;
+}
+        .stepsContainer {background: #010101; background-image: url(images/logobg.svg); background-repeat: repeat;
+  background-size:2000px; background-position: top center; margin:70px 0px 0px 0px; padding: 40px 30px 40px;}
+                .steps { color:#fff; list-style: none; text-align: center; margin-top: -65px; vertical-align: top;}
+        .steps h2 {font-size: 32px;margin:0px 0px 10px;}
+        .steps li {padding-bottom: 50px;font-size: 20px;}
+    .steps span {margin-top:5px; border:1px solid #ccc; -webkit-box-shadow: 0px 0px 0px 10px rgba(255,255,255,.1); box-shadow: 0px 0px 0px 10px rgba(255,255,255,.1); box-sizing: border-box;font-size:32px;background:  #666;line-height: 30px; color:white; padding: 10px;margin-bottom:20px; height:50px; width:50px; border-radius: 500px; display: inline-block;}
+        .steps span:hover {margin-top: -10px; background: #999;}
+        .quoteContainer  {background:rgba(0,0,0,1); padding: 10px; margin-top: 60px;}
+          .quote img {max-width: 150px;}
+        .quote{color:white;z-index: 2; position: absolute;font-size: 18px;
+          
+  position: relative;
+  margin: 30px;
+    max-width: 850px;
+}
+.quote::before {
+  content: open-quote;
+  position: absolute;
+  left: -3.5rem;
+  top: -4.7rem;
+  font-size: 18rem;
+  color: rgba(255,255, 255, 0.2);
+    font-family: times;
+    z-index: -1;
+}
+       
+    .ourClients {text-align: center; background: white;}
+    .ourClients  ul {list-style: none;}
+    .ourClients li {margin:30px 0px; vertical-align: top;}
+    .ourClients img {max-width: 180px}
+    .ourClients h2 {font-size:  42px; padding:0px;}
+
+
+@media (min-width: 1025px) {
+    .ourClients li {display: inline-block; padding: 25px;}
+    .quoteContainer {border: 40px solid #111;}
+    .quote {margin: 160px auto; line-height: 42px;font-size: 32px;}
+    .quote::before {
+color: #333;
+  left: -3.5rem;
+  top: -0rem;
+
+}
+    .topContent {margin: auto; max-width: 1200px;}
+    .blurb {max-width:47%; vertical-align: top; margin: auto;  display: inline-block}
+    .blurb h1:hover {margin-top: -10px;}
+    .mainImage {max-width: 52%;  display: inline-block}
+    .mainImage:hover {margin: 40px  0px 10px;}
+    .blurb  img {max-width: 800px;}
+    nav {text-align: center;}
+    nav li {display: inline-block; border:0px;}
+    nav li a  { padding: 15px 25px;}
+    nav li a:hover {background:var(--primary); text-decoration: none;border-bottom:2px solid white; }
+  .header__title {
+    font-size: 52px; max-width: 1280px; margin: auto;
   }
-  h1, h2, h3, h4, h5, h6 {color:#FFF;}
+    .stepsContainer {margin: 100px 20px 70px;}
+    .steps {max-width: 1200px;margin:-60px  auto 60px;}
+    .steps h2 {margin: 10px 0px 20px;}
+    .steps li {display: inline-block; max-width: 33%; padding: 0px 60px; }
+    .steps h2:hover, .steps p:hover {margin-top: -10px;}
+    .ctaTwo {margin-top: 50px;}
+   
+}
+
+.header__shape {
+  position: absolute;
+  z-index: 1;
+}
+.header__shape.block--red {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 0, 115, 0.5);
+  top: 0px;
+  left: 0px;
+  -webkit-animation: squiggle-one 16s linear infinite;
+          animation: squiggle-one 16s linear infinite;
+}
+@media (min-width: 480px) {
+  .header__shape.block--red {
+    -webkit-animation: squiggle-one-medium 16s linear infinite;
+            animation: squiggle-one-medium 16s linear infinite;
+  }
+}
+@media (min-width: 960px) {
+  .header__shape.block--red {
+    -webkit-animation: squiggle-one-large 16s linear infinite;
+            animation: squiggle-one-large 16s linear infinite;
+  }
+}
+.header__shape.triangle--blue {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 120px solid rgba(0, 184, 255, 0.5);
+  bottom: 30px;
+  left: 50%;
+  -webkit-animation: squiggle-two 9s linear infinite;
+          animation: squiggle-two 9s linear infinite;
+}
+@media (min-width: 480px) {
+  .header__shape.triangle--blue {
+    -webkit-animation: squiggle-two-medium 9s linear infinite;
+            animation: squiggle-two-medium 9s linear infinite;
+  }
+}
+@media (min-width: 960px) {
+    
+
+        
+    
+    
+  .header__shape.triangle--blue {
+    -webkit-animation: squiggle-two-large 9s linear infinite;
+            animation: squiggle-two-large 9s linear infinite;
+  }
+}
+.header__shape.circle--green {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(38, 255, 65, 0.5);
+  top: 100px;
+  right: 100px;
+  -webkit-animation: squiggle-three 20s linear infinite;
+          animation: squiggle-three 20s linear infinite;
+}
+@media (min-width: 480px) {
+  .header__shape.circle--green {
+    -webkit-animation: squiggle-three-medium 20s linear infinite;
+            animation: squiggle-three-medium 20s linear infinite;
+  }
+}
+@media (min-width: 960px) {
+    .blurb h1 {font-size: 62px;}
+  .header__shape.circle--green {
+    -webkit-animation: squiggle-three-large 20s linear infinite;
+            animation: squiggle-three-large 20s linear infinite;
+  }
+}
+.header__shape.trap--yellow {
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 0, 0.5);
+  top: 100px;
+  left: 50%;
+  transform: skew(20deg, 0deg);
+  -webkit-animation: squiggle-four 23s linear infinite;
+          animation: squiggle-four 23s linear infinite;
+}
+        .ctaOne {display: none;}
+@media (min-width: 480px) {
+  .header__shape.trap--yellow {
+    -webkit-animation: squiggle-four-medium 23s linear infinite;
+            animation: squiggle-four-medium 23s linear infinite;
+  }
+}
+@media (min-width: 960px) {
+    .ctaOne{display: block; position: absolute; top: -13px; right:70px; font-size: 16px;}
+  .header__shape.trap--yellow {
+    -webkit-animation: squiggle-four-large 23s linear infinite;
+            animation: squiggle-four-large 23s linear infinite;
+  }
+}
+
+/* LIST */
+.links-list {
+  max-width: 420px;
+  margin: 30px auto;
+}
+
+.links-list__item {
+  font-size: 14px;
+  position: relative;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #f8f8f8;
+}
+@media (min-width: 480px) {
+  .links-list__item {
+    font-size: 18px;
+  }
+}
+@media (min-width: 960px) {
+  .links-list__item {
+    font-size: 24px;
+  }
+}
+.links-list__item:last-child {
+  border-bottom: none;
+}
+
+
 }
     </STYLE>
   </head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-         
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-    <nav>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
+  < <DIV CLASS="number">Call Now to get started <A href=""> 1.555.5555</a></DIV>
+    
+    <div class="dropdown">
+  <input type="checkbox" id="checkbox_toggle">
+  <label for="checkbox_toggle" class="hamburger">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+   </label>
+  <nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Work</a></li>
+    <li><a href="#">Blog</a></li>
+    <li STYLE="border-bottom:0px;"><a href="#">Contact Us</a></li>
+  </ul>
+    </nav>
+</div>
+<div class="page-content">
+  <!--<h1 class="logo">Your Company Logo</h1> <div class="phone">1.555.5555</p></div>-->
+    <div class="logoContainer"><a href="/"><img class="logo" src="images/logo.svg"></a>  </div>
+</div>
 
-        </header>
-      </div>
-    </div>
+
+    
+    
+    
+    <a class="cta ctaOne" href="">Contact Us</a>
 
     <div id="main" role="main" class="container">
         CONTENTa
