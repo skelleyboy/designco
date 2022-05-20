@@ -31,11 +31,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
+  
   margin: 1em 0 15px;
   padding: 0;
 
@@ -209,7 +209,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  
   font-weight: 700;
   font-size: 36px;
   letter-spacing: -2px;
@@ -229,7 +229,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  
   font-size: 18px;
 
   @include mobile {
