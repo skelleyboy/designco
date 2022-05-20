@@ -5,19 +5,25 @@ permalink: "/blog/"
 
 ---
 aaa
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div id="main" role="main" class="container">
+    <div class="posts">
+      {% for post in site.posts %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1
+        <article class="post">
 
-      <div class="entry">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<DIV CLASS="postTitle">{{ post.title }}</DIV></a>
-      </div>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+          <div class="entry">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>
+          </div>
+
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+        </article> 
+
+      {% endfor %}
+    </div>
+
+</DIV>
 
 
