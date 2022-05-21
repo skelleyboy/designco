@@ -22,6 +22,7 @@ permalink: "/blog/"
         </article> 
 
       {% endfor %}
+      
     </div>
 
 </DIV>
