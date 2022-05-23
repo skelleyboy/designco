@@ -3,7 +3,7 @@ layout: post
 title: 5 things every business must have
 
 ---
-![/designco/uploads/screen-shot-2022-05-23-at-1-21-08-pm.png](https://app.forestry.io/sites/jpldurdqdfmiug/body-media//designco/uploads/screen-shot-2022-05-23-at-1-21-08-pm.png)
+![](/designco/uploads/frame-3-2.png)
 
 1. a .com address for your company such  as "mycompany.com"
 2. A name and vector logo
@@ -17,8 +17,9 @@ These are the bare minimum!
 
 ### 1. If  you need a .com address -
 
-Use  namesilo.com or a similar service to check  if your desired name is available to purchase.  
 ![](/designco/uploads/screen-shot-2022-05-23-at-1-21-08-pm.png)
+
+Use  namesilo.com or a similar service to check  if your desired name is available to purchase.
 
 ##### PRICE: $9.95 a year
 
