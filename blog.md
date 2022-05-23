@@ -14,10 +14,10 @@ permalink: "/blog/"
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
           <div class="entry">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>
+            <a class="entryLink" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>
           </div>
 
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
 
         </article> 
 
