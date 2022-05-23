@@ -3,7 +3,7 @@ layout: post
 title: 5 things every business must have
 
 ---
-![/designco/uploads/screen-shot-2022-05-23-at-1-17-15-pm.png](https://app.forestry.io/sites/jpldurdqdfmiug/body-media//designco/uploads/screen-shot-2022-05-23-at-1-17-15-pm.png)
+![/designco/uploads/screen-shot-2022-05-23-at-1-21-08-pm.png](https://app.forestry.io/sites/jpldurdqdfmiug/body-media//designco/uploads/screen-shot-2022-05-23-at-1-21-08-pm.png)
 
 1. a .com address for your company such  as "mycompany.com"
 2. A name and vector logo
