@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 things every new company must have
+title: Top 5 things every new company must have
 
 ---
 ![](/designco/uploads/frame-3-3.png)
