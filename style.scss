@@ -43,10 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.blurb {
-  font-size:30px;
-  font-weight:100;
-  margin:100px 0px;
+
   
   @include mobile {
     margin:50px 0px;
@@ -55,7 +52,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 32px;
-  a {
+  a {font-weight: bold;
+      margin-bottom: 20px;
       font-weight: 400;
     color: inherit;
   }
@@ -115,7 +113,7 @@ img {
 }
 
 // Fixes images in popup boxes from Google Translate
-.gmnoprint img {
+.gmnoprint blurb {
   max-width: none;
 }
 
