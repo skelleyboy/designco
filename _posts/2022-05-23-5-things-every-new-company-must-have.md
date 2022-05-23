@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 5 things every business must have
+title: Top 5 things every new company must have
 
 ---
 ![](/designco/uploads/frame-3-3.png)
 
-1. a .com address for your company such  as "mycompany.com"
+1. A .com address for your company such  as "mycompany.com"
 2. A name and vector logo
 3. A business email address such as "sales@mycompany.com"
 4. Social media such as facebook and instagram
