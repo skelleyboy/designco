@@ -3,7 +3,7 @@ layout: post
 title: 5 things every business must have
 
 ---
-![](/designco/uploads/frame-3-2.png)
+![](/designco/uploads/frame-3-3.png)
 
 1. a .com address for your company such  as "mycompany.com"
 2. A name and vector logo
