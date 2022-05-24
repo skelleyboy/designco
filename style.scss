@@ -29,10 +29,11 @@ hr {border-color: #eee; margin: 30px 0px;}
  ol {
    list-style: none;
    counter-reset: item;
+     margin-top: 20px;
  }
  li {
    counter-increment: item;
-   margin-bottom: 5px;
+   margin-bottom: 25px;
      padding-left:50px;
  }
  li:before {
