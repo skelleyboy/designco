@@ -37,6 +37,9 @@ hr {border-color: #eee; margin: 30px 0px;}
      padding-left:50px;
  }
   .blogContainer li:before {
+      height: 30px;
+      width:30px;
+      line-height: 30px;
    margin:0px 20px 0px -50px;;
    content: counter(item);
    background: var(--primary);
