@@ -49,7 +49,7 @@ Use google workspaces. Google has set the standard for email.
 
 ### 4. Social Media such as Facebook and Instagram
 
-![](/designco/uploads/screen-shot-2022-05-24-at-2-05-20-pm.png)
+![](/designco/uploads/frame-3-4.png)
 
 ##### **Price -** Free
 
