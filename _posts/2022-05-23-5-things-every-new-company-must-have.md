@@ -9,7 +9,7 @@ When starting a new business for the first time the amount of steps involved can
 
 ## The top 5 things every new company must have
 
-1. A .com address for your company such  as "mycompany.com"
+1. A .com address for your company such  as " my company . com"
 2. A name and logo
 3. A business email address such as "sales@mycompany.com"
 4. Social media such as facebook and instagram
