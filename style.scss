@@ -33,13 +33,15 @@ hr {border-color: #eee; margin: 30px 0px;}
  li {
    counter-increment: item;
    margin-bottom: 5px;
+     padding-left:50px;
  }
  li:before {
-   margin-right: 10px;
+   margin:0px 20px 0px -50px;;
    content: counter(item);
-   background: lightblue;
+   background: $primary;
    border-radius: 100%;
    color: white;
+   font-weight: bold;
    width: 1.2em;
    text-align: center;
    display: inline-block;
@@ -109,9 +111,7 @@ ul {
   list-style-type: disc;
 }
 
-ol {
-  list-style-type: decimal;
-}
+
 
 ol ul, ul ol, ul ul, ol ol {
   margin: 0;
