@@ -19,7 +19,7 @@ These are the bare minimum!
 
 ## What tools are needed to get the top 5 things a company must have?
 
-### 1. A .com address -
+### 1. Tools needed to get a .com address -
 
 ![](/designco/uploads/screen-shot-2022-05-23-at-1-21-08-pm.png)
 
@@ -29,7 +29,7 @@ Use  namesilo.com or a similar service to check  if your desired name is availab
 
 ***
 
-### 2. A logo -
+### 2. Tools needed to make a logo -
 
 Use figma for FREE. Make sure you have a vector logo so it can be scaled without losing quality.![](/designco/uploads/screen-shot-2022-05-23-at-1-26-30-pm.png)
 
@@ -37,7 +37,7 @@ Use figma for FREE. Make sure you have a vector logo so it can be scaled without
 
 ***
 
-### 3. A Business Email Address like "sales @ mycompany.com "
+### 3. How to Get A Business Email Address like "sales @ mycompany.com "
 
 Use google workspaces. Google has set the standard for email.
 
@@ -47,9 +47,11 @@ Use google workspaces. Google has set the standard for email.
 
 ***
 
-### 4. Social Media such as Facebook and Instagram
+### 4. Tools needed to get Social Media such as Facebook and Instagram
 
 ![](/designco/uploads/frame-3-4.png)
+
+All you need is your business email to register social media accounts. This is a great way to establish and build your new brand and engage with clients and customers.
 
 ##### **Price -** Free
 
