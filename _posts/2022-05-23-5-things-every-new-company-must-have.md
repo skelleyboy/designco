@@ -7,7 +7,7 @@ title: Top 5 things every new company must have
 
 When starting a new business for the first time the amount of steps involved can be daunting. It can be difficult to know where to begin. There are certain things that every new company will need. We have taken the time to boil these down to the top 5 things every new company must have.
 
-## The top 5 things every new company must have.
+## The top 5 things every new company must have
 
 1. A .com address for your company such  as "mycompany.com"
 2. A name and logo
@@ -17,7 +17,7 @@ When starting a new business for the first time the amount of steps involved can
 
 These are the bare minimum!
 
-### What tools are needed to get these things?
+## What tools are needed to get the top 5 things a company must have?
 
 ### 1. A .com address -
 
@@ -25,14 +25,44 @@ These are the bare minimum!
 
 Use  namesilo.com or a similar service to check  if your desired name is available to purchase.
 
-##### PRICE: $9.95 a year
+##### **Price -** $9.95 a year
+
+***
 
 ### 2. A logo -
 
 Use figma for FREE. Make sure you have a vector logo so it can be scaled without losing quality.![](/designco/uploads/screen-shot-2022-05-23-at-1-26-30-pm.png)
 
-##### PRICE: FREE (if you know how to design.)
+##### **Price -** Free! (if you know how to design.)
 
-### 3. If  you need  business email address "sales@mycompany.com"
+***
 
-Use google workspaces. Google has set the standard for email.![](/designco/uploads/screen-shot-2022-05-23-at-1-30-08-pm.png)
+### 3. A Business Email Address like "sales@mycompany.com"
+
+Use google workspaces. Google has set the standard for email.
+
+![](/designco/uploads/screen-shot-2022-05-24-at-2-07-45-pm.png)
+
+##### **Price -** $6 per user per month. 
+
+***
+
+### 4. Social Media such as Facebook and Instagram
+
+![](/designco/uploads/screen-shot-2022-05-24-at-2-05-20-pm.png)
+
+##### **Price -** Free
+
+***
+
+### 5. A Mobile Friendly Website
+
+![](https://www.thinkwithgoogle.com/_qs/static/img/icons/data-points/mobile.svg)People who have a negative experience on mobile are **62% less** likely to make a future purchase — no matter how beautiful or data-driven your marketing campaigns are.
+
+![](/designco/uploads/sample_steve.png)
+
+##### **Price - Starting at** 100$ deposit + $20/month
+
+***
+
+[**Contact Us To Get Started Today**]()
