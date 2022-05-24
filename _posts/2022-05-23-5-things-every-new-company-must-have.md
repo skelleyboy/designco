@@ -9,9 +9,9 @@ When starting a new business for the first time the amount of steps involved can
 
 ## The top 5 things every new company must have
 
-1. A .com address for your company such  as " my company . com"
+1. A .com address for your company such  as "mycompany.com"
 2. A name and logo
-3. A business email address such as "sales@mycompany.com"
+3. A business email address such as sales@ or dave@ "mycompany.com"
 4. Social media such as facebook and instagram
 5. A mobile friendly website the incorporates  all of the above
 
@@ -37,7 +37,7 @@ Use figma for FREE. Make sure you have a vector logo so it can be scaled without
 
 ***
 
-### 3. A Business Email Address like "sales@mycompany.com"
+### 3. A Business Email Address like "sales @ mycompany.com "
 
 Use google workspaces. Google has set the standard for email.
 
