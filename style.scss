@@ -26,17 +26,17 @@ body {
 
 hr {border-color: #eee; margin: 30px 0px;}
 
- ol {
+  .blogContainer ol {
    list-style: none;
    counter-reset: item;
      margin-top: 20px;
  }
- li {
+  .blogContainer li {
    counter-increment: item;
    margin-bottom: 25px;
      padding-left:50px;
  }
- li:before {
+  .blogContainer li:before {
    margin:0px 20px 0px -50px;;
    content: counter(item);
    background: $primary;
