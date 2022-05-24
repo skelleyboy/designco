@@ -59,8 +59,6 @@ All you need is your business email to register social media accounts. This is a
 
 ### 5. A Mobile Friendly Website
 
-![](https://www.thinkwithgoogle.com/_qs/static/img/icons/data-points/mobile.svg)People who have a negative experience on mobile are **62% less** likely to make a future purchase — no matter how beautiful or data-driven your marketing campaigns are.
-
 ![](/designco/uploads/sample_steve.png)
 
 ##### **Price - Starting at** 100$ deposit + $20/month
