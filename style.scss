@@ -39,7 +39,7 @@ hr {border-color: #eee; margin: 30px 0px;}
   .blogContainer li:before {
    margin:0px 20px 0px -50px;;
    content: counter(item);
-   background: $primary;
+   background: var(--primary);
    border-radius: 100%;
    color: white;
    font-weight: bold;
