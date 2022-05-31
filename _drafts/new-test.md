@@ -3,7 +3,6 @@ layout: post
 title: New test
 
 ---
-![](/designco/uploads/frame-3-3.png)
 
 When starting a new business for the first time the amount of steps involved can be daunting. It can be difficult to know where to begin. There are certain things that every new company will need. We have taken the time to boil these down to the top 5 things every new company must have.
 
@@ -43,7 +42,7 @@ Use google workspaces. Google has set the standard for email.
 
 ![](/designco/uploads/screen-shot-2022-05-24-at-2-07-45-pm.png)
 
-##### **Price -** $6 per user per month. 
+##### **Price -** $6 per user per month.
 
 ***
 
