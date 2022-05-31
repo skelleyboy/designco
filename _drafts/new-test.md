@@ -3,6 +3,7 @@ layout: post
 title: New test
 
 ---
+![](/designco/uploads/354b3263-0de7-46ac-87fb-25b6388e8f59.jpeg)
 
 When starting a new business for the first time the amount of steps involved can be daunting. It can be difficult to know where to begin. There are certain things that every new company will need. We have taken the time to boil these down to the top 5 things every new company must have.
 
