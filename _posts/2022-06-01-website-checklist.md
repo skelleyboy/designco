@@ -10,4 +10,7 @@ title: '"Above the fold" Website Checklist'
    1. Point one
    2. Point two
    3. Point three
-3. How do they buy it?
+3. Two colorful buttons that are easy to see to "buy it now"
+4. A photo of people smiling
+
+Your website must have these "above  the fold."
