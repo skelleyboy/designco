@@ -81,10 +81,9 @@ nav ul {
 }
 
 nav li {
-  border-bottom: 1px solid #333;
   color: #fff;
   font-size: 28px;
-  padding: 15px;
+  padding: 25px 15px;
   display: flex;
 }
 
@@ -104,8 +103,10 @@ nav li a:hover{
     input[type=checkbox]:checked ~ nav {display: block;}
 
 input[type=checkbox]:checked ~ nav ul {
-  height: auto;
-  max-height: 600px;
+  height: 100vh;
+    
+top:0px;
+    bottom:0px;
     position: fixed;
     left: 0px;
     right: 0px;
@@ -249,6 +250,10 @@ color: #333;
     nav li {padding: 20px 15px 15px; display: inline-block; border:0px;}
     nav li a  {padding:35px 15px 15px}
     nav li a:hover {background:var(--primary); text-decoration: none;border-bottom:2px solid white; }
+    input[type=checkbox]:checked ~ nav ul {
+  height: 70px;
+    max-height: 70px;
+}
   .header__title {
     font-size: 52px; max-width: 1280px; margin: auto;
   }
