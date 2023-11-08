@@ -624,7 +624,35 @@ color: #333;
           
             
             
+          <main>
+            <h1>Sign Up</h1>
+            <br />
+            <form id="signup-form">
+              <input name="email" type="text" />
+              <input name="password" type="text" />
+              <button type="submit">Sign Up<button>
+            </form>
+          </main>
+          <script>
+            const memberstack = window.$memberstackDom;
+            const redirectTo = (path) => { window.location.href = path }
             
+            const signupMember => ({ email, password }) =>
+            memberstack
+            .signupMemberEmailPassword({ email, password })
+            .then(({ data: member }) => { redirectTo("/onboarding") })
+        
+            const handleSubmit = (e) => {
+              e.preventDefault();
+              let email = e.target.email.value
+              let password = e.target.password.value
+              signupMember({ email, password })
+             }
+          
+             // listen for form submissions
+             document.getElementById('signup-form')
+             .addEventListener('submit', handleSubmit);
+          </script>
           
             
             
