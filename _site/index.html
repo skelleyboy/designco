@@ -68,7 +68,7 @@
     
     .mainImage {max-width: 100%; margin:30px 0px 0px 0px;}
     .blurb {padding:20px 30px 0px; text-align: center; max-width:1480px; margin:50px auto 0px;position: relative; }
-     .blurb  h1 {font-size:32px;}
+     .blurb  h1 {font-size:36px;}
      .blurb h2 {font-size:20px; font-weight: normal; margin-bottom:50px;}
     .blurb  img {max-width: 100%; margin: 30px 0px  0px 0px;}
 body {
@@ -559,7 +559,20 @@ input[type=checkbox]:checked ~ label .line-3 {
 </DIV>
 
 
-
+<UL>
+  
+    <LI>Standard
+      One request at a time. Pause or cancel anytime.
+      $2,995/m
+      Pause or cancel anytime
+      <a class="cta ctaTwo" href="https://buy.stripe.com/4gwaFceqw0jQ0V24gg">Get Started</a>
+  </LI>
+  <li>
+      Pro    Standard
+      One request at a time. Pause or cancel anytime.
+      $4,995/m
+      Pause or cancel anytime <a class="cta ctaTwo" href="https://buy.stripe.com/5kA28Geqw5EabzGeUV">Get Started</a>
+  </li>
    <!-- <div id="main" role="main" class="container">
         CONTENTa
       <DIV  class="topContent">
@@ -644,58 +657,30 @@ input[type=checkbox]:checked ~ label .line-3 {
 </DIV>
 
 
-
-    </div>-->
 <UL>
   
-  <LI>Standard
-    One request at a time. Pause or cancel anytime.
-    $2,995/m
-    Pause or cancel anytime
-    <a class="cta ctaTwo" href="https://buy.stripe.com/4gwaFceqw0jQ0V24gg">Get Started</a>
-</LI>
-<li>
-    Pro    Standard
-    One request at a time. Pause or cancel anytime.
-    $4,995/m
-    Pause or cancel anytime <a class="cta ctaTwo" href="https://buy.stripe.com/5kA28Geqw5EabzGeUV">Get Started</a>
-</li>
+    <LI>Standard
+      One request at a time. Pause or cancel anytime.
+      $2,995/m
+      Pause or cancel anytime
+      <a class="cta ctaTwo" href="https://buy.stripe.com/4gwaFceqw0jQ0V24gg">Get Started</a>
+  </LI>
+  <li>
+      Pro    Standard
+      One request at a time. Pause or cancel anytime.
+      $4,995/m
+      Pause or cancel anytime <a class="cta ctaTwo" href="https://buy.stripe.com/5kA28Geqw5EabzGeUV">Get Started</a>
+  </li>
+    </div>-->
+
 </UL>
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
           
             
-            
-          <main>
-            <h1>Sign Up</h1>
-            <br />
-            <form id="signup-form">
-              <input name="email" type="text" />
-              <input name="password" type="text" />
-              <button type="submit">Sign Up<button>
-            </form>
-          </main>
-          <script>
-            const memberstack = window.$memberstackDom;
-            const redirectTo = (path) => { window.location.href = path }
-            
-            const signupMember => ({ email, password }) =>
-            memberstack
-            .signupMemberEmailPassword({ email, password })
-            .then(({ data: member }) => { redirectTo("/onboarding") })
+            foot3r
         
-            const handleSubmit = (e) => {
-              e.preventDefault();
-              let email = e.target.email.value
-              let password = e.target.password.value
-              signupMember({ email, password })
-             }
-          
-             // listen for form submissions
-             document.getElementById('signup-form')
-             .addEventListener('submit', handleSubmit);
-          </script>
           
             
             
@@ -725,11 +710,6 @@ input[type=checkbox]:checked ~ label .line-3 {
     
 
 
-    <script> 
-      const memberstack = window.$memberstackDom;
-      // Session Duration
-      ms_session_duration_days = 14 //days
-      memberstack.getApp().then(({ data : app }) => console.log({ app }))
-    </script>
+   
   </body>
 </html>
