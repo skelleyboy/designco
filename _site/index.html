@@ -233,8 +233,8 @@ input[type=checkbox]:checked ~ label .line-3 {
        
     .ourClients {text-align: center; background: white; margin-top:100px;}
     .ourClients  ul {list-style: none;}
-    .ourClients li {margin:30px 0px; vertical-align: middle;}
-    .ourClients img {max-width: 180px}
+    .ourClients li {display: inline-block; vertical-align: middle; padding: 25px;margin:0px 10px 0px; }
+    .ourClients img {max-width: 190px; max-height: 80px;}
     .ourClients h2 {font-size:  42px; padding:0px;}
      
         .blogContainer h1  {margin: 30px 0px 30px  0px;}
@@ -413,6 +413,31 @@ input[type=checkbox]:checked ~ label .line-3 {
 .links-list__item:last-child {
   border-bottom: none;
 }
+@keyframes marquee {
+  0% {
+    margin-left: 0%;
+    transform: translateX(0%);
+  }
+  100% {
+    margin-left: -100%;
+    transform: translateX(-100%);
+  }
+}
+
+.section {
+  overflow: hidden;
+
+  .marquee {
+    animation: marquee 57s linear infinite;
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
+
+.text-styling {
+  background-color:white;
+  padding: 1em;
+}
 
     </STYLE>
      
@@ -464,21 +489,31 @@ input[type=checkbox]:checked ~ label .line-3 {
         
     </DIV>
 
+    <section class="section">
+        <DIV class="marquee ourClients">
+            <UL>
+                <LI><img src="/designco/images/themes/client_contigo.png"></LI>
+                <LI><img src="/designco/images/themes/client_bosch.png"></LI>
+                <LI><img src="/designco/images/themes/client_constellation.png"></LI>
+                     <LI><img src="/designco/images/themes/client_gm.png"></LI>
+                     <LI><img src="/designco/images/themes/client_cadillac.jpg"></LI>
+                     <LI><img src="/designco/images/themes/client_gmc.png"></LI>
+                     <LI><img src="/designco/images/themes/client_buick.jpg"></LI>
+                     <LI><img src="/designco/images/themes/client_honda.png"></LI>
+                     <LI><img src="/designco/images/themes/client_brightdrop.png"></LI>
+                     <LI><img src="/designco/images/themes/client_physiq.png"></LI>
+                          <LI><img src="/designco/images/themes/client_magnuson.png"></LI>
+                          <LI><img src="/designco/images/themes/client_cadillac.jpg"></LI>
+        
+    
+            </UL>
+             
+        </DIV>
+        <!--<p class="marquee text-styling">Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>-->
+    </section>
 
 
-
-    <DIV class="ourClients">
-        <UL>
-             <LI><img src="/designco/images/themes/client_contigo.png"></LI>
-             <LI><img src="/designco/images/themes/client_physiq.png"></LI>
-             <LI><img src="/designco/images/themes/client_bosch.png"></LI>
-             <LI><img src="/designco/images/themes/client_constellation.png"></LI>
-                  <LI><img src="/designco/images/themes/client_magnuson.png"></LI>
-
-
-        </UL>
-         
-    </DIV>
+   
     
 <DIV CLASS="ourWork"></DIV>
     <a class="cta ctaTwo" target="_blank" href="https://www.figma.com/proto/Wyg6qTyNyz0sUHL21lbajT/Sample--Work?type=design&node-id=20-51&t=b8cXTnrs2bAtMBe8-0&scaling=min-zoom&page-id=0%3A1">View Work</a>  
@@ -536,21 +571,31 @@ input[type=checkbox]:checked ~ label .line-3 {
         
     </DIV>
 
+    <section class="section">
+        <DIV class="marquee ourClients">
+            <UL>
+                <LI><img src="/designco/images/themes/client_contigo.png"></LI>
+                <LI><img src="/designco/images/themes/client_bosch.png"></LI>
+                <LI><img src="/designco/images/themes/client_constellation.png"></LI>
+                     <LI><img src="/designco/images/themes/client_gm.png"></LI>
+                     <LI><img src="/designco/images/themes/client_cadillac.jpg"></LI>
+                     <LI><img src="/designco/images/themes/client_gmc.png"></LI>
+                     <LI><img src="/designco/images/themes/client_buick.jpg"></LI>
+                     <LI><img src="/designco/images/themes/client_honda.png"></LI>
+                     <LI><img src="/designco/images/themes/client_brightdrop.png"></LI>
+                     <LI><img src="/designco/images/themes/client_physiq.png"></LI>
+                          <LI><img src="/designco/images/themes/client_magnuson.png"></LI>
+                          <LI><img src="/designco/images/themes/client_cadillac.jpg"></LI>
+        
+    
+            </UL>
+             
+        </DIV>
+        <!--<p class="marquee text-styling">Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>-->
+    </section>
 
 
-
-    <DIV class="ourClients">
-        <UL>
-             <LI><img src="/designco/images/themes/client_contigo.png"></LI>
-             <LI><img src="/designco/images/themes/client_physiq.png"></LI>
-             <LI><img src="/designco/images/themes/client_bosch.png"></LI>
-             <LI><img src="/designco/images/themes/client_constellation.png"></LI>
-                  <LI><img src="/designco/images/themes/client_magnuson.png"></LI>
-
-
-        </UL>
-         
-    </DIV>
+   
     
 <DIV CLASS="ourWork"></DIV>
     <a class="cta ctaTwo" target="_blank" href="https://www.figma.com/proto/Wyg6qTyNyz0sUHL21lbajT/Sample--Work?type=design&node-id=20-51&t=b8cXTnrs2bAtMBe8-0&scaling=min-zoom&page-id=0%3A1">View Work</a>  
