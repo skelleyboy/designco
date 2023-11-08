@@ -234,10 +234,10 @@ input[type=checkbox]:checked ~ label .line-3 {
     z-index: -1;
 }
        
-    .ourClients {text-align: center; background: white; margin:50px;}
+    .ourClients {text-align: center; background: white; margin-top:100px;}
     .ourClients  ul {list-style: none;}
     .ourClients li {display: inline-block; vertical-align: middle; padding: 25px;margin:0px 10px 0px; }
-    .ourClients img {max-width: 190px; max-height: 80px;}
+    .ourClients img {max-width: 150px; max-height: 80px;}
     .ourClients h2 {font-size:  42px; padding:0px;}
      
         .blogContainer h1  {margin: 30px 0px 30px  0px;}
@@ -418,7 +418,7 @@ input[type=checkbox]:checked ~ label .line-3 {
 }
 @keyframes marquee {
   0% {
-    margin-left: 0%;
+    margin-left: 0;
     transform: translateX(0%);
   }
   100% {
@@ -431,7 +431,7 @@ input[type=checkbox]:checked ~ label .line-3 {
   overflow: hidden;
 
   .marquee {
-    animation: marquee 150s linear infinite;
+    animation: marquee 57s linear infinite;
     display: inline-block;
     white-space: nowrap;
   }
@@ -656,6 +656,11 @@ input[type=checkbox]:checked ~ label .line-3 {
     
 
 
-    
+    <script> 
+      const memberstack = window.$memberstackDom;
+      // Session Duration
+      ms_session_duration_days = 14 //days
+      memberstack.getApp().then(({ data : app }) => console.log({ app }))
+    </script>
   </body>
 </html>
