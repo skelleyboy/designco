@@ -21,7 +21,11 @@
 
     
 
-
+    <script
+    data-memberstack-app="app_cl92vfop300wr0vjm2q3n4njb"
+    src="<https://static.memberstack.com/scripts/v1/memberstack.js>"
+    type="text/javascript"
+  ></script>
 
     <link rel="stylesheet" type="text/css" href="/designco//style.css" />
     <link rel="alternate" type="application/rss+xml" title="Design - " href="/designco//feed.xml" />
@@ -614,5 +618,12 @@ color: #333;
    
     
 
+
+    <script> 
+      const memberstack = window.$memberstackDom;
+      // Session Duration
+      ms_session_duration_days = 14 //days
+      memberstack.getApp().then(({ data : app }) => console.log({ app }))
+    </script>
   </body>
 </html>
