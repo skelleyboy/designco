@@ -220,16 +220,16 @@ input[type=checkbox]:checked ~ label .line-3 {
   z-index: 9999;
     padding: 0px 30px;
 }
-        .stepsContainer {background-color: #121212;margin:70px 0px 0px 0px; border-radius: 20px; padding: 40px;}
+        .stepsContainer {background-color: #121212;margin:70px 10px 0px; border-radius: 20px; padding: 30px;}
                 .steps { color:#fff; list-style: none;  text-align: center;  vertical-align: top;}
-        .steps h2 {font-size: 32px;margin:50px 0px 10px;}
+        .steps h2 {font-size: 32px;margin:0px 0px 10px;}
         .steps li {padding-bottom: 50px;font-size: 20px;}
     .steps span {margin-top:5px;font-size:72px;color:#666; padding: 10px;margin-bottom:10px;display: inline-block;}
         .steps span:hover {margin-top: -10px;}
         .stepsBlurb {color:white; font-size:32px; font-weight: bold; text-align: center; margin: 70px 30px;}
-        .quoteContainer  {padding: 10px; margin-top: 60px; background-color: white; }
+        .quoteContainer  {padding: 10px; margin: 60px 0px; background-color: white; }
           .quote img {max-width: 150px;}
-        .quote{color:#333;;z-index: 2; position: absolute;font-size: 20px; line-height: 1.5;
+        .quote{color:#333;z-index: 2; position: absolute;font-size: 20px; line-height: 1.5;
           
   position: relative;
   margin: 30px;
@@ -239,7 +239,7 @@ input[type=checkbox]:checked ~ label .line-3 {
   content: open-quote;
   position: absolute;
   left: -3.5rem;
-  top: -4.7rem;
+  top: -200px;
   font-size: 18rem;
   color: rgba(0,0, 0, 0.1);
     font-family: times;
@@ -296,7 +296,8 @@ input[type=checkbox]:checked ~ label .line-3 {
   .header__title {
     font-size: 52px; max-width: 1280px; margin: auto;
   }
-    .stepsContainer {margin: 100px 0px; border-radius: 0px 200px 0px 0px}
+  body {overflow-x: clip;}
+    .stepsContainer {margin: 100px -250px; padding: 100px 0px; border-radius: 0px 999px 0px 999px}
     .steps {max-width: 1200px;margin:0px  auto 70px;}
     .steps h2 {margin: 10px 0px 20px; color:white;}
     .steps li {display: inline-block; max-width: 28%; padding: 0px 60px; }
@@ -487,7 +488,9 @@ input[type=checkbox]:checked ~ label .line-3 {
     
     
     
-    <a class="cta ctaOne" href="">Book a Call</a>
+    <a class="cta ctaOne" target="_blank" href="https://calendly.com/dannyskelley/15min">Book a Call</a>
+
+    
 
     
      <article class="page">
